@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom"
+    app:startDestination="@id/homeScreen">
+
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="uz.gita.newsappxmlby.presenter.screens.HomeScreen"
+        android:label="HomeScreen" />
+    <fragment
+        android:id="@+id/searchScreen"
+        android:name="uz.gita.newsappxmlby.presenter.screens.SearchScreen"
+        android:label="SearchScreen" />
+    <fragment
+        android:id="@+id/bookmarkScreen"
+        android:name="uz.gita.newsappxmlby.presenter.screens.BookmarkScreen"
+        android:label="BookmarkScreen" />
+</navigation>
